@@ -1,0 +1,8 @@
+@PointClass base(Weapon) 
+	appliesto(P2CE) 
+	// Don't add a subfolder to this, Portal maps won't contain any other weapons.
+	autovis(Weapons)
+	studioprop("models/weapons/w_portalgun.mdl") = weapon_paintgun: "The Paint Gun, cut from Portal 2 but reimplemented in P2CE. Shoots paint."+
+	" Currently, the only way to upgrade the gun with other paint types is using the upgrade_paintgun command."
+	[
+	]
