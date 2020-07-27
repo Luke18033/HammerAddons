@@ -14,6 +14,7 @@
 
 	balllifetime(float) : "Ball Lifetime" : 12 : "The time in seconds the ball will live before self-destructing. A negative value will give infinite life, appearing green."
 	minlifeafterportal(float) : "Min life after portal transition" : 6 : "When energy balls created by this launcher pass through a portal their life is refreshed to be this number at minimum."
+	balldamage[P2CE](float) : "Ball Damage" : 1500 : "Amount of damage dealt to players hit by this launcher's energy balls."
 
 	// Inputs
 	input LaunchBall(void) : "Launch a ball from the spawner."
