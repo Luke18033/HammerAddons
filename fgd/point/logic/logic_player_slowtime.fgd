@@ -1,0 +1,7 @@
+@PointClass base(BaseEntityPoint) appliesto(P2CE)
+ = logic_player_slowtime: "Start/stops player being in slow time"
+[
+	// Inputs
+	input StartSlowingTime(float) : "Start slowing time for the player (with a set duration)."
+	input StopSlowingTime(void) : "Stop slowing time for the player."
+]
