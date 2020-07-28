@@ -47,6 +47,7 @@
 		"no_pinging_orange": "Prevent Pinging P-Body"
 		"no_taunting_blue": "Prevent Taunting ATLAS"
 		"no_taunting_orange": "Prevent Taunting P-Body"
+		"slowtime_disabled": "Disable +slowtime"
 		]
 
 	globalstate[INFRA](choices): "Global State to Read" : : "" = 
